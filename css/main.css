@@ -1,0 +1,275 @@
+﻿.c1 {
+  display: flex;
+}
+.foot {
+  background-color: rgb(209, 188, 188) !important;
+}
+.headerr {
+  background-color: rgb(209, 188, 188);
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px !important;
+}
+.innerimg {
+  height: 100px;
+  width: 100px;
+}
+.man-inn {
+  text-align: justify;
+}
+.old-inn {
+  text-align: justify;
+}
+.mat-inn {
+  text-align: justify;
+}
+.dummy {
+  display: flex;
+  justify-content: space-between;
+}
+.dummy-img {
+  height: 200px;
+  width: 300px;
+}
+.about-container {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.row {
+  display: flex;
+}
+.ccimg {
+  max-height: 435px;
+}
+.cc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.qcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: justify;
+  text-justify: auto;
+  margin-bottom: 15px;
+}
+.quotes {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: -105px;
+  top: 30px;
+}
+
+.border-right {
+  border-right: 4px solid #db4859;
+}
+.container-bg-light {
+  background: #efefef;
+}
+.top-spacing {
+  margin: 30px 0 0 0;
+}
+.top-spacing1 {
+  margin: 70px 0 0 0;
+}
+#rcorners2 {
+  border: 1px solid #db4859;
+  padding: 20px;
+  height: 300px;
+}
+.imgrounded {
+  width: 65px;
+  height: 65px;
+}
+.bannerImg {
+  background-image: url("img/homeBanner.jpg");
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-image-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/ds-landingImage.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/Launch image.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/es-landingImage.jpg");
+  height: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/fur-landingImage.jpg");
+  height: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 1301px) {
+  .in-headspace {
+    height: 50px;
+  }
+  .in-space {
+    height: 80px;
+  }
+}
+
+.es-card {
+  top: normal !important;
+  background: #333;
+  opacity: 0.6;
+  color: #fff;
+}
+.bottom-align-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #333;
+  opacity: 0.6;
+  color: #fff;
+}
+
+.es-card-text-bottom {
+  position: absolute;
+  bottom: 0;
+  background: #333;
+  opacity: 0.8;
+  color: #fff;
+  padding: 10px;
+}
+.es-card-p0 {
+  padding: 0;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.card {
+  border: none !important;
+}
+.p-space {
+  padding: 1.5rem 0px 1.5rem 0px !important;
+}
+.card-title,
+.headerColor {
+  color: #db4859;
+}
+
+.sliderBG {
+  background: #777d87;
+  opacity: 0.7;
+}
+.hero-heading {
+  font-size: 36px;
+}
+.display-3 {
+  font-size: 2.5rem;
+}
+.textColor1 {
+  color: #db4859;
+}
+.textColor2 {
+  color: #db4859;
+}
+.mini-heading {
+  font-weight: bold;
+}
+.mini-heading1 {
+  font-weight: 400 !important;
+  font-style: italic;
+}
+.course {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+/* school page */
+.courseDetails {
+  margin: 0 5px 0 0;
+  background: #db4859;
+  letter-spacing: 3px;
+}
+.contentHighlight {
+  color: #db4859;
+  text-decoration: none;
+}
+.courseDetails-p {
+  color: #fff;
+}
+.imgrounded1 {
+  width: 90px;
+  height: 90px;
+}
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background: #db4859;
+}
+
+@media (max-width: 767.98px) {
+  .spacing1 {
+    margin: 20px 0 0 0;
+  }
+  .fur-img {
+    height: 300px;
+  }
+}
+
+@media (min-width: 767.98px) {
+}
